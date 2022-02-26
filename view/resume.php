@@ -45,7 +45,6 @@
 	</head>
 	<body data-spy="scroll" data-target="#navbar-example">	 
 		
-		<!--<div class="opl"><a href="http://onepagelove.com/pascal-van-gemert" target="_blank">pascalvangemert.nl featured on One Page Love</a></div>-->
 		
 		<?php 
 			
