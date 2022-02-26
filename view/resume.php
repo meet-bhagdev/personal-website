@@ -8,7 +8,7 @@
 		<meta http-equiv="content-language" content="nl" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="author" content="Meet Bhagdev" />	
-		<meta name="description" content="I am Meet Bhagdev, a tenured product manager who has spent most of his career building and growing cloud services. I am a problem solver who likes to challenge assumptions and find design innovating solutions. I am currently a lead Product Manager at Amazon Web Services focusing on NoSQL database services such as Amazon DocumentDB" />
+		<meta name="description" content="I am Meet Bhagdev, a tenured product manager who has spent most of his career building and growing cloud services. I am a problem solver who likes to challenge assumptions and find design innovating solutions. I am currently a lead Product Manager at Amazon Web Services focusing on NoSQL database services such as Amazon DocumentDB. I am currently a lead Product Manager at Amazon Web Services focusing on NoSQL database services such as Amazon DocumentDB. I am originally from India and moved to the United States in 2011 to study at University of California, UCLA." />
 		<meta name="keywords" content="Meet Bhagdev, Product Manager at Amazon Web Services (ex Microsoft Azure)" />
 		<meta name="robots" content="index, follow" />
 		<meta name="revisit-after" content="14 days" />

@@ -1,5 +1,5 @@
 <h2>Profile</h2>
-<p class="lead">Tenured product manager who has spent most of his career building and growing cloud services</p>
+<p class="lead">Tenured product manager who loves working on developer products, open source, and the cloud</p>
 
 <hr />
 
