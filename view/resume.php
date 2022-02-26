@@ -6,16 +6,14 @@
 		<meta http-equiv="content-script-type" content="text/javascript" />
 		<meta http-equiv="content-style-type" content="text/css" />
 		<meta http-equiv="content-language" content="nl" />
-		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
-		<meta name="author" content="Pascal van Gemert" />	
-		<meta name="description" content="I'm Pascal van Gemert, a ninja webdeveloper / creative programmer with good knowledge of front-end technics." />
-		<meta name="keywords" content="Pascal van Gemert, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Whoopaa, HRMatches, Sanitairwinkel, Algorithms, PHP, MySQL, OOP" />
+		<meta name="author" content="Meet Bhagdev" />	
+		<meta name="description" content="I am Meet Bhagdev, a tenured product manager who has spent most of his career building and growing cloud services. I am a problem solver who likes to challenge assumptions and find design innovating solutions. I am currently a lead Product Manager at Amazon Web Services focusing on NoSQL database services such as Amazon DocumentDB" />
+		<meta name="keywords" content="Meet Bhagdev, Product Manager at Amazon Web Services (ex Microsoft Azure)" />
 		<meta name="robots" content="index, follow" />
 		<meta name="revisit-after" content="14 days" />
 			
-		<title>Pascal van Gemert - Web Developer - Interactive Resume</title>
+		<title>Meet Bhagdev</title>
 		
 		<!-- Bootstrap core CSS -->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
@@ -47,7 +45,7 @@
 	</head>
 	<body data-spy="scroll" data-target="#navbar-example">	 
 		
-		<div class="opl"><a href="http://onepagelove.com/pascal-van-gemert" target="_blank">pascalvangemert.nl featured on One Page Love</a></div>
+		<!--<div class="opl"><a href="http://onepagelove.com/pascal-van-gemert" target="_blank">pascalvangemert.nl featured on One Page Love</a></div>-->
 		
 		<?php 
 			
