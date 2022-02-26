@@ -1,27 +1,27 @@
 {
     "profile": {
-        "first_name": "Pascal",
+        "first_name": "Meet",
         "middle_names": "",
-        "last_name": "van Gemert",
-        "date_of_birth": "1986-11-19",
-        "place_of_birth": "'s-Hertogenbosch",
-        "biography": "I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.",
+        "last_name": "Bhagdev",
+        "date_of_birth": "1993-01-01",
+        "place_of_birth": "India",
+        "biography": "Tenured product manager",
         "current_location": {
             "street": "********",
             "housenumber": 0,
             "zipcode": "********",
-            "city": "'s-Hertogenbosch",
-            "country": "The Netherlands",
+            "city": "Seattle",
+            "country": "WA",
             "planet": "Earth"
         }
     },
     "contact_details": {
-        "email": "pascal@pascalvangemert.nl",
+        "email": "meetbhagdev@gmail.com",
         "phone": "********",
         "skype": "pascalvgemert",
-        "website": "http://pascalvangemert.nl/",
-        "twitter": "http://twitter.com/pascalvgemert",
-        "linkedin": "http://linkedin.nl/in/pascalvgemert/"
+        "website": "http://meetbhagdev.com",
+        "twitter": "https://twitter.com/meet_bhagdev",
+        "linkedin": "https://www.linkedin.com/meet-bhagdev"
     },
     "educations": [
         {
