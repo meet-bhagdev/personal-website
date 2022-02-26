@@ -25,10 +25,6 @@
 		
 		/* PUBLIC METHODS */
 		
-		/**
-		 * Initalize the Router
-		 * match and execute current Route
-		 */
 		public function initialize()
 		{
 			$lstrRequestedUri = preg_replace('|'.dirname($_SERVER['PHP_SELF']).'|i', '', $_SERVER['REQUEST_URI']);
@@ -38,13 +34,6 @@
 			$this->executeRoute($loRoute);
 		}
 		
-		/**
-		 * Intialize (lazy load) a controller by Name 
-		 * If not exists import controller
-		 *
-		 * @param string $pstrController
-		 * @return Object
-		 */
 		public function loadController($pstrController)
 		{
 			$lstrController = "Controllers\\$pstrController";
@@ -59,9 +48,6 @@
 		
 		/* PRIVATE METHODS */
 		
-		/**
-		 * Load JSON data in to the ORM
-		 */
 		private function loadData()
 		{
 			if($lstrData = file_get_contents(JSON_DATA_FILE))
@@ -70,11 +56,6 @@
 			}
 		}
 		
-		/** 
-		 * Execute current Route
-		 * 
-		 * @param Route $poRoute
-		 */
 		private function executeRoute($poRoute)
 		{
 			if(!@isset($poRoute))
@@ -85,11 +66,6 @@
 			$this->callTarget($poRoute);
 		}
 		
-		/** 
-		 * Execute the target (controller->method or template) of the Route
-		 *
-		 * @param Route $poRoute
-		 */
 		private function callTarget($poRoute)
 		{
 			$loTarget = $poRoute->getTarget();
@@ -109,13 +85,6 @@
 			$this->ioViewController->showTemplate((@isset($loTarget->template)) ? $loTarget->template : null);
 		}
 		
-		/**
-		 * Import Controller from Name
-		 * Check if file exists and create the controller
-		 *
-		 * @param string $pstrController
-		 * @return Object
-		 */
 		private function importController($pstrController)
 		{	
 			$laControllerParts		= explode('\\', $pstrController);

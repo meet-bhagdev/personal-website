@@ -21,7 +21,7 @@ function applyHeader()
 
 function lazyLoad(poContainer)
 {
-	/*var lstrSource   = poContainer.attr('data-src');
+	var lstrSource   = poContainer.attr('data-src');
 	var lstrPosition = poContainer.attr('data-position');
 
 	$('<img>').attr('src', lstrSource).load(function()
@@ -30,7 +30,7 @@ function lazyLoad(poContainer)
 		poContainer.css('background-position', lstrPosition);
 		poContainer.css('-ms-filter', '"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\')"');
 		poContainer.css('filter', 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\'');
-	});*/
+	});
 }
 
 /* NAVIGATION FUNCTIONS */
@@ -170,7 +170,7 @@ function getBrowserAndVersion()
 
 function searchString(paData) 
 {
-	for(var i = 0; i < paData.length; i++)	
+	for(var i = 0; i < data.length; i++)	
 	{
 		var lstrDataString 	= paData[i].string;
 		var lstrDataProp 	= paData[i].prop;
