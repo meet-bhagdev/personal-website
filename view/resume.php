@@ -50,7 +50,7 @@
 	
 		<div id="top" class="jumbotron" data-src="view/images/coffee_animation.gif" data-position="center center" style="height: 100%">
 			<div class="container">
-				<h1>Krishna Kartik Darsipudi</h1>
+				<h1>Meet Bhagdev</h1>
 				<p class="lead">Python | Data Science | Data Engineering</p>
 			</div>
 			
