@@ -26,21 +26,7 @@
         <script type="text/javascript" src="view/js/utils.js"></script>
         <script type="text/javascript" src="view/js/jquery.csv.js"></script>
 
-		
-		<!-- Begin Inspectlet Embed Code -->
-		<script type="text/javascript" id="inspectletjs">
-			window.__insp = window.__insp || [];
-			__insp.push(['wid', 92785244]);
-			(function() {
-				function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-				if (window.attachEvent){
-					window.attachEvent('onload', __ldinsp);
-				}else{
-					window.addEventListener('load', __ldinsp, false);
-				}
-			})();
-		</script>
-		<!-- End Inspectlet Embed Code -->
+	
 	</head>
 	<body data-spy="scroll" data-target="#navbar-example">	 
 		
@@ -60,16 +46,12 @@
 			$current_index  = (@isset($_GET['header']) && is_numeric($_GET['header'])) ? intval($_GET['header']) : date('d') % count($header_images); // $_GET['header'] overwrites current header
 			$current_header = (@isset($header_images[$current_index])) ? $header_images[$current_index] : current($header_images);
 		
-			if(date('d-m') == '19-11')
-			{
-				$current_header = array('source' => VIEW_PATH.'images/birthday_animation.gif', 'position' => 'center center');
-			}
 		?>
 	
-		<div id="top" class="jumbotron" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">
+		<div id="top" class="jumbotron" data-src="view/images/coffee_animation.gif" data-position="center center" style="height: 100%">
 			<div class="container">
-				<h1><?= $profile->full_name; ?></h1>
-				<p class="lead">Interactive resume</p>
+				<h1>Krishna Kartik Darsipudi</h1>
+				<p class="lead">Python | Data Science | Data Engineering</p>
 			</div>
 			
 			<div class="overlay"></div>
@@ -78,7 +60,7 @@
 				<span class="glyphicon glyphicon-chevron-down"></span>
 			</a>
 		</div>
-		
+
 		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
