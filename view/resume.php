@@ -51,7 +51,7 @@
 		<div id="top" class="jumbotron" data-src="view/images/coffee_animation.gif" data-position="center center" style="height: 100%">
 			<div class="container">
 				<h1>Meet Bhagdev</h1>
-				<p class="lead">Python | Data Science | Data Engineering</p>
+				<p class="lead">Principal Product Manager | Amazon Web Services</p>
 			</div>
 			
 			<div class="overlay"></div>
@@ -113,7 +113,9 @@
 		<?php include(VIEW_INCLUDE_PATH.'sections/upgrade.inc.php'); ?>
 		
 
-		
-		</script>
+				
+		<script type="text/javascript" src="view/js/script.js"></script>
+        
+		<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
 	</body>
 </html>
