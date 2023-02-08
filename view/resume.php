@@ -113,7 +113,9 @@
 		<?php include(VIEW_INCLUDE_PATH.'sections/upgrade.inc.php'); ?>
 		
 
-		
-		</script>
+				
+		<script type="text/javascript" src="view/js/script.js"></script>
+        
+		<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
 	</body>
 </html>
