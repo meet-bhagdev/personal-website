@@ -48,7 +48,7 @@
 		
 		?>
 	
-		<div id="top" class="jumbotron" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">
+		<div id="top" class="jumbotron" data-src="view/images/coffee_animation.gif" data-position="center center" style="height: 100%">
 			<div class="container">
 				<h1>Meet Bhagdev</h1>
 				<p class="lead">Principal Product Manager | Amazon Web Services</p>
