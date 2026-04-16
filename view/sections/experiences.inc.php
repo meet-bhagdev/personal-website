@@ -55,6 +55,33 @@
 
 <h3>Careers</h3>
 
+<div class="experiences">
+
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Amazon Web Services (AWS)</h4>
+			<p class="experience-period">
+				Jan 2025 - current
+			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Head of Product, Amazon ElastiCache, MemoryDB, and Neptune</strong>
+				<span class="hidden-phone">
+					Lead product for Amazon ElastiCache, MemoryDB, and Neptune, a multi-billion-dollar AWS portfolio growing double digits YoY. Managing 12 Product Managers and a Data Scientist while setting portfolio strategy. Delivered significant ARR growth through launches, pricing and GTM motions, partnerships, and ecosystem investments, including AWS's role in Valkey.
+				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Seattle, WA
+					</span>
+				</span>
+			</p>
+		</div>
+	</div>
+
+</div>
+
 <?php if(count($careers) > 0) { ?>
 
 <div class="experiences">
