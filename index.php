@@ -1,6 +1,7 @@
 <?php
 	
 	header('Content-Type: text/html; charset=utf-8');
+	error_reporting(E_ALL & ~E_DEPRECATED & ~E_WARNING);
 	
 	ob_start("ob_gzhandler");
 	

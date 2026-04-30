@@ -27,7 +27,7 @@
 		
 		/* PRIVATE METHODS */
 		
-		private function getObject($pstrObjectTitle)
+		private static function getObject($pstrObjectTitle)
 		{
 			return (@isset(self::$ioDataobject->$pstrObjectTitle)) ? self::$ioDataobject->$pstrObjectTitle : null;
 		}

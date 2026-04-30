@@ -51,7 +51,7 @@
 		<div id="top" class="jumbotron" data-src="view/images/coffee_animation.gif" data-position="center center" style="height: 100%">
 			<div class="container">
 				<h1>Meet Bhagdev</h1>
-				<p class="lead">Principal Product Manager | Amazon Web Services</p>
+				<p class="lead">Head of Product | Amazon ElastiCache, Neptune & MemoryDB | AWS</p>
 			</div>
 			
 			<div class="overlay"></div>
